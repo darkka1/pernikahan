@@ -1,0 +1,13 @@
+# Wedding React
+
+This is a minimal Vite + React project scaffold for a wedding site.
+
+Replace placeholder images in `src/assets/images` and the MP3 at `src/assets/music.mp3` with real files.
+
+Quick start (PowerShell):
+
+```
+cd "c:\Users\syahd\Downloads\Pernikahan versi react js\wedding-react"
+npm install
+npm run dev
+```

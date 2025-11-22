@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FALLING PETALS PURE CSS */
+.petal {
+  @apply fixed w-4 h-4 bg-pink-300 rounded-full opacity-70 pointer-events-none;
+  animation: fall 7s linear infinite, sway 3s ease-in-out infinite alternate;
+}
+
+@keyframes fall {
+  to { transform: translateY(110vh); }
+}
+
+@keyframes sway {
+  to { transform: translateX(40px); }
+}
